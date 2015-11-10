@@ -1,0 +1,2 @@
+module CountryCardsHelper
+end

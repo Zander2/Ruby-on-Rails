@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="page">
+        <header class="site-header">
+
+            <%= link_to(@index, class: "logo") do %>
+                <h1>Compliance</h1>
+            <% end %>
+            <%= link_to(@index, class: "logo") do %>
+                <h2>powered by &reg;taulia</h2>
+            <% end %>
+
+            <nav class="site-nav">
+                <ul>
+                    <li><%= link_to 'the pillars', root_path, class: "selected" %></li>
+                    <li><%= link_to 'partners', root_path %></li>
+                    <li><%= link_to 'The pillars', root_path %></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="site-main">
+            <div class="nice welcome">
+                <h1>Welcome To</h1>
+                <h3>Taulia Compliance</h3>
+            </div>
+            <div class="foundation">
+                <h3>Foundation</h3>
+                <h4>of eInvoicing compliance</h4>
+                <ul class="pillars">
+                    <li>
+                        <div class="data_validation">
+                            <a href=#>
+                                <div class="button">
+                                    <div class="icon data"></div>
+                                    <div><h5>Data Validation</h5></div>
+                                </div>
+                            </a>
+                            <table class="table">
+                                <tr>
+                                    <th class="data_header">VAT Content</th>
+                                </tr>
+                                <tr>
+                                    <td>Invoice data elements comply with local tax authorities requirements</td>
+                                </tr>
+                                <tr>
+                                    <td>Inclusive of tax and commercial law requirements</td>
+                                </tr>
+                                <tr>
+                                    <td>Data values are validated to reduce errors</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="auth_integ">
+                            <a href=#>
+                                <div class="button">
+                                    <div class="icon auth"></div>
+                                    <div><h5>Authenticity & Integrity</h5></div>
+                                </div>
+                            </a>
+                            <table class="table">
+                                <tr>
+                                    <th class="auth_header">Digital Signature</th>
+                                </tr>
+                                <tr>
+                                    <td>Guarantees authenticity and integrity of electronic invoice</td>
+                                </tr>
+                                <tr>
+                                    <td>Digital signature applied by per-country rules</td>
+                                </tr>
+                                <tr>
+                                    <td>All communications within a secure environment</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="archiving">
+                            <a href=#>
+                                <div class="button">
+                                    <div class="icon arch"></div>
+                                    <div><h5>Archiving & Audit</h5></div>
+                                </div>
+                            </a>
+                            <table class="table">
+                                <tr>
+                                    <th class="arch_header">Archiving & Audit</th>
+                                </tr>
+                                <tr>
+                                    <td>Secure electronic data warehouse for all invoice-related documents</td>
+                                </tr>
+                                <tr>
+                                    <td>Transaction audit trail
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Complies with data protection legislation</td>
+                                </tr>
+                                <tr>
+                                    <td>Access for auditors</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <ul class="footer-nav">
+                <li class="twitter">
+                    <div  onclick='window.location.href="http://twitter.com/WhiteMamba_Kobe"'>
+                        <a href="http://twitter.com/WhiteMamba_Kobe" target="_blank">
+                            <div class="buton">
+                                <div class="media tw"></div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="facebook">
+                    <div id="div-facebook">
+                        <a href="https://www.facebook.com/MasterZander" target="_blank">
+                            <div class="buton">
+                                <div class="media fb"></div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="linkedin">
+                    <div id="div-linkedin">
+                        <a href="https://www.linkedin.com/MasterZander" target="_blank">
+                            <div class="buton">
+                                <div class="media lk"></div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <p>&copy; Taulia 2015
+                    <span></span>
+                    <a href="http://taulia.com/terms-of-use">Terms &amp; Conditions</a>
+                    <span></span>
+                    <a href="http://taulia.com/privacy-policy">Privacy Policy</a>
+                </p>
+            </ul>
+        </footer>
+    </div>
+</body></html>
